@@ -1,4 +1,4 @@
-version: Senate - Royal Assent
+version: Latest Publication
 
 Second Session, Forty-first Parliament,
 62-63-64 Elizabeth II, 2013-2014-2015
