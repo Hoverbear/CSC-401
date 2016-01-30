@@ -1,12 +1,12 @@
-version: House of Commons - First Reading
+version: House of Commons - As amended by committee
 
 C-51
 Second Session, Forty-first Parliament,
-62-63 Elizabeth II, 2013-2014-2015
+62-63-64 Elizabeth II, 2013-2014-2015
 HOUSE OF COMMONS OF CANADA
 BILL C-51
 An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts
-FIRST READING, JANUARY 30, 2015
+REPRINTED AS AMENDED BY THE STANDING COMMITTEE ON PUBLIC SAFETY AND NATIONAL SECURITY AS A WORKING COPY FOR THE USE OF THE HOUSE OF COMMONS AT REPORT STAGE AND AS REPORTED TO THE HOUSE ON APRIL 2, 2015
 MINISTER OF PUBLIC SAFETY AND EMERGENCY PREPAREDNESS
 90756
 
@@ -14,7 +14,7 @@ RECOMMENDATION
 His Excellency the Governor General recommends to the House of Commons the appropriation of public revenue under the circumstances, in the manner and for the purposes set out in a measure entitled “An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts”.
 SUMMARY
 Part 1 enacts the Security of Canada Information Sharing Act, which authorizes Government of Canada institutions to disclose information to Government of Canada institutions that have jurisdiction or responsibilities in respect of activities that undermine the security of Canada. It also makes related amendments to other Acts.
-Part 2 enacts the Secure Air Travel Act in order to provide a new legislative framework for identifying and responding to persons who may engage in an act that poses a threat to transportation security or who may travel by air for the purpose of committing a terrorism offence. That Act authorizes the Minister of Public Safety and Emergency Preparedness to establish a list of such persons and to direct air carriers to take any necessary actions to prevent the commission of such acts. In addition, that Act establishes powers and prohibitions governing the collection, use and disclosure of information in support of its administration and enforcement. That Act includes an administrative recourse process for listed persons who have been denied transportation in accordance with a direction from the Minister of Public Safety and Emergency Preparedness and provides appeal procedures for persons affected by any decision or action taken under that Act. That Act also specifies punishment for contraventions of listed provisions and authorizes the Minister of Transport to conduct inspections and issue compliance orders. Finally, this Part makes consequential amendments to the Aeronautics Act and the Canada Evidence Act.
+Part 2 enacts the Secure Air Travel Act in order to provide a new legislative framework for identifying and responding to persons who may engage in an act that poses a threat to transportation security or who may travel by air for the purpose of committing a terrorism offence. That Act authorizes the Minister of Public Safety and Emergency Preparedness to establish a list of such persons and to direct air carriers to take a specific action to prevent the commission of such acts. In addition, that Act establishes powers and prohibitions governing the collection, use and disclosure of information in support of its administration and enforcement. That Act includes an administrative recourse process for listed persons who have been denied transportation in accordance with a direction from the Minister of Public Safety and Emergency Preparedness and provides appeal procedures for persons affected by any decision or action taken under that Act. That Act also specifies punishment for contraventions of listed provisions and authorizes the Minister of Transport to conduct inspections and issue compliance orders. Finally, this Part makes consequential amendments to the Aeronautics Act and the Canada Evidence Act.
 Part 3 amends the Criminal Code to, with respect to recognizances to keep the peace relating to a terrorist activity or a terrorism offence, extend their duration, provide for new thresholds, authorize a judge to impose sureties and require a judge to consider whether it is desirable to include in a recognizance conditions regarding passports and specified geographic areas. With respect to all recognizances to keep the peace, the amendments also allow hearings to be conducted by video conference and orders to be transferred to a judge in a territorial division other than the one in which the order was made and increase the maximum sentences for breach of those recognizances.
 It further amends the Criminal Code to provide for an offence of knowingly advocating or promoting the commission of terrorism offences in general. It also provides a judge with the power to order the seizure of terrorist propaganda or, if the propaganda is in electronic form, to order the deletion of the propaganda from a computer system.
 Finally, it amends the Criminal Code to provide for the increased protection of witnesses, in particular of persons who play a role in respect of proceedings involving security information or criminal intelligence information, and makes consequential amendments to other Acts.
@@ -157,7 +157,7 @@ Coming into Force
 SCHEDULE
 
 2nd Session, 41st Parliament,
-62-63 Elizabeth II, 2013-2014-2015
+62-63-64 Elizabeth II, 2013-2014-2015
 house of commons of canada
 BILL C-51
 An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts
@@ -198,7 +198,7 @@ Definitions
 (g) interference with the global information infrastructure, as defined in section 273.61 of the National Defence Act;
 (h) an activity that causes serious harm to a person or their property because of that person’s association with Canada; and
 (i) an activity that takes place in Canada and undermines the security of another state.
-For greater certainty, it does not include lawful advocacy, protest, dissent and artistic expression.
+For greater certainty, it does not include advocacy, protest, dissent and artistic expression.
 “Government of Canada institution”
 « institution fédérale »
 “Government of Canada institution” means
@@ -225,7 +225,7 @@ Disclosure of information
 Further disclosure under subsection (1)
 (2) Information received under subsection (1) may be further disclosed under that subsection.
 Further disclosure — other than under this Act
-6. For greater certainty, nothing in this Act prevents a head, or their delegate, who receives information under subsection 5(1) from, in accordance with the law, using that information, or further disclosing it to any person, for any purpose.
+6. For greater certainty, the use and further disclosure, other than under this Act, of information that is disclosed under subsection 5(1) are neither authorized nor prohibited by this Act, but must be done in accordance with the law, including any legal requirements, restrictions and prohibitions.
 No presumption
 7. The act of disclosing information under this Act does not create a presumption
 (a) that the disclosing institution is conducting a joint investigation or decision-making process with the recipient institution and therefore has the same obligations, if any, as the recipient institution to disclose or produce information for the purposes of a proceeding; or
@@ -375,7 +375,7 @@ Amendment of list
 (b) by changing the information relating to a listed person.
 DIRECTIONS
 Directions
-9. (1) The Minister may direct an air carrier to do anything that, in the Minister’s opinion, is reasonable and necessary to prevent a listed person from engaging in any act set out in subsection 8(1) and may make directions respecting, in particular,
+9. (1) The Minister may direct an air carrier to take a specific, reasonable and necessary action to prevent a listed person from engaging in any act set out in subsection 8(1) and may make directions respecting, in particular,
 (a) the denial of transportation to a person; or
 (b) the screening of a person before they enter a sterile area of an airport or board an aircraft.
 Exemption from Statutory Instruments Act
@@ -825,7 +825,7 @@ Proof of certificate of analyst — bodily substance
 2014, c. 31
 35. On the first day on which both section 16 of this Act and subsection 16(2) of the Protecting Canadians from Online Crime Act are in force,
 (a) the portion of subsection 83.223(1) of the Criminal Code before paragraph (a) is replaced by the following:
-Order to computer system’s custodian
+Order to computer system’s custodian 
 83.223 (1) If a judge is satisfied by information on oath that there are reasonable grounds to believe that there is material — that is terrorist propaganda or computer data that makes terrorist propaganda available — stored on and made available to the public through a computer system that is within the court’s jurisdiction, the judge may order the computer system’s custodian to
 (b) subsection 83.223(5) of the Criminal Code is replaced by the following:
 Order of deletion
@@ -887,6 +887,8 @@ Limits
 (2) The measures shall be reasonable and proportional in the circumstances, having regard to the nature of the threat, the nature of the measures and the reasonable availability of other means to reduce the threat.
 Warrant
 (3) The Service shall not take measures to reduce a threat to the security of Canada if those measures will contravene a right or freedom guaranteed by the Canadian Charter of Rights and Freedoms or will be contrary to other Canadian law, unless the Service is authorized to take them by a warrant issued under section 21.1.
+Clarification
+(4) For greater certainty, nothing in subsection (1) confers on the Service any law enforcement power.
 Prohibited conduct
 12.2 (1) In taking measures to reduce a threat to the security of Canada, the Service shall not
 (a) cause, intentionally or by criminal negligence, death or bodily harm to an individual;
@@ -1093,8 +1095,3 @@ Royal Canadian Mounted Police
 Gendarmerie royale du Canada
 Commissioner of the Royal Canadian Mounted Police
 Published under authority of the Speaker of the House of Commons
-
-
-
-Top of document
-Home | Important Notices
