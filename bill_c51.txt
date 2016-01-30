@@ -1,13 +1,14 @@
-version: House of Commons - As amended by committee
-
+version: House of Commons - As passed by the House of Commons
+ 
 C-51
 Second Session, Forty-first Parliament,
 62-63-64 Elizabeth II, 2013-2014-2015
 HOUSE OF COMMONS OF CANADA
 BILL C-51
 An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts
-REPRINTED AS AMENDED BY THE STANDING COMMITTEE ON PUBLIC SAFETY AND NATIONAL SECURITY AS A WORKING COPY FOR THE USE OF THE HOUSE OF COMMONS AT REPORT STAGE AND AS REPORTED TO THE HOUSE ON APRIL 2, 2015
-MINISTER OF PUBLIC SAFETY AND EMERGENCY PREPAREDNESS
+AS PASSED
+BY THE HOUSE OF COMMONS
+MAY 6, 2015
 90756
 
 RECOMMENDATION
@@ -849,7 +850,7 @@ Bill S-7
 (7) If section 29 of this Act comes into force on the same day as section 13 of the other Act, then that section 13 is deemed to have come into force before that section 29.
 (8) On the first day on which both section 32 of this Act and section 14 of the other Act are in force, subsection 14(2) of the Youth Criminal Justice Act is replaced by the following:
 Orders
-(2) A youth justice court has jurisdiction to make orders against a young person under sections 83.3 (recognizance — terrorist activity), 810 (recognizance — fear of injury or damage), 810.01 (recognizance — fear of certain offences), 810.011 (recognizance — fear of terrorism offence), 810.02 (recognizance — fear of forced marriage or marriage under age of 16 years) and 810.2 (recognizance — fear of serious personal injury offence) of the Criminal Code. If the young person fails or refuses to enter into a recognizance referred to in any of those sections, the court may impose any one of the sanctions set out in subsection 42(2) (youth sentences) except that, in the case of an order under paragraph 42(2)(n) (custody and supervision order), it shall not exceed 30 days.
+(2) A youth justice court has jurisdiction to make orders against a young person under sections 83.3 (recognizance — terrorist activity), 810 (recognizance — fear of injury or damage), 810.01 (recognizance — fear of certain offences), 810.011 (recognizance — fear of terrorism offence), 810.02 (recognizance — fear of forced marriage or marriage under age of 16 years) and 810.2 (recognizance — fear of seri-ous personal injury offence) of the Criminal Code. If the young person fails or refuses to enter into a recognizance referred to in any of those sections, the court may impose any one of the sanctions set out in subsection 42(2) (youth sentences) except that, in the case of an order under paragraph 42(2)(n) (custody and supervision order), it shall not exceed 30 days.
 (9) On the first day on which both section 33 of this Act and section 15 of the other Act are in force, paragraph 142(1)(a) of the Youth Criminal Justice Act is replaced by the following:
 (a) in respect of an order under section 83.3 (recognizance — terrorist activity), 810 (recognizance — fear of injury or damage), 810.01 (recognizance — fear of certain offences), 810.011 (recognizance — fear of terrorism offence), 810.02 (recognizance — fear of forced marriage or marriage under age of 16 years) or 810.2 (recognizance — fear of serious personal injury offence) of that Act or an offence under section 811 (breach of recognizance) of that Act;
 Bill C-26
@@ -935,7 +936,7 @@ Maximum duration of warrant
 Renewal of warrant — measures to reduce threats to the security of Canada
 22.1 (1) On application in writing to a judge for the renewal of a warrant issued under subsection 21.1(3) made by a person who is entitled, after having obtained the Minister’s approval, to apply for such a warrant and who believes on reasonable grounds that the warrant continues to be required to enable the Service to take the measures specified in it to reduce a threat to the security of Canada, the judge may renew the warrant if the judge is satisfied by evidence on oath of the following matters:
 (a) the facts relied on to justify the belief on reasonable grounds that the warrant continues to be required to enable the Service to take the measures specified in it to reduce a threat to the security of Canada; and
-(b) the continued reasonableness and proportionality, in the circumstances, of the measures specified in the warrant, having regard to the nature of the threat, the nature of the measures and the reasonable availability of other means to reduce the threat.
+(b) the continued reasonableness and proportionality, in the circumstances, of the meas-ures specified in the warrant, having regard to the nature of the threat, the nature of the measures and the reasonable availability of other means to reduce the threat.
 Limits on renewal
 (2) A warrant issued under subsection 21.1(3) may be renewed only twice, with each renewal being for a period not exceeding the period for which it may be issued under subsection 21.1(6).
 Limits on execution of warrant
