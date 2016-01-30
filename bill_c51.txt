@@ -1,15 +1,13 @@
-version: House of Commons - As passed by the House of Commons
- 
-C-51
+version: Senate - Royal Assent
+
 Second Session, Forty-first Parliament,
 62-63-64 Elizabeth II, 2013-2014-2015
-HOUSE OF COMMONS OF CANADA
-BILL C-51
+STATUTES OF CANADA 2015
+CHAPTER 20
 An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts
-AS PASSED
-BY THE HOUSE OF COMMONS
-MAY 6, 2015
-90756
+ASSENTED TO
+18TH JUNE, 2015
+BILL C-51
 
 RECOMMENDATION
 His Excellency the Governor General recommends to the House of Commons the appropriation of public revenue under the circumstances, in the manner and for the purposes set out in a measure entitled “An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts”.
@@ -157,11 +155,11 @@ Coming into Force
 62.       Order in council
 SCHEDULE
 
-2nd Session, 41st Parliament,
-62-63-64 Elizabeth II, 2013-2014-2015
-house of commons of canada
-BILL C-51
+62-63-64 ELIZABETH II
+——————
+CHAPTER 20
 An Act to enact the Security of Canada Information Sharing Act and the Secure Air Travel Act, to amend the Criminal Code, the Canadian Security Intelligence Service Act and the Immigration and Refugee Protection Act and to make related and consequential amendments to other Acts
+[Assented to 18th June, 2015]
 Her Majesty, by and with the advice and consent of the Senate and House of Commons of Canada, enacts as follows:
 SHORT TITLE
 Short title
