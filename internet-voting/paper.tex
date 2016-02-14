@@ -88,6 +88,23 @@
 
 \section*{Background}
 
+%-------------------------------------------------------------------------------
+
+\section*{Principles}
+
+The report \cite{internet-voting-report} outlined several principles to evaluate potential systems against. Below we can break down how Estonia's system worked in relation to these specifics:
+
+\begin{description}
+    \item[Accessibility] With the Estonian system, the voting client is available for Mac, Windows, and Linux, lending it strong accessibility. There was no research on the system's ability to handle attacks like a DDOS or 0-day vulnerability. Barring some sort of high-capacity attack it's unlikely the system would be inaccessible for the entire week of internet voting. This system satisfactorily addresses the panel's principle.
+    \item[Ballot Anonimity] The system featured a two stage process which involved two seperate air-gapped machines. One machine had access to the signed, encrypted ballots, and could validate, then strip the signing off the ballots. The other machine could take the anonymous ballots and decrypt them, ensuring that by the time the vote is counted, the identity has been removed. It's necessary for there to be some trust (and perhaps validation) that the respective machines are adequately secured. This system satisfies this principle.
+    \item[Individual and Independent Verifiability] This system provides voters with a reasonable way to review their vote was as they submitted. This verification system utilizes a different device, a smartphone. There is a reasonable limit on the number of times someone could review their vote, and the system allows for resubmission to prevent cohercion. This principle is moderately satisfied.
+    \item[Non-reliance on Trustworthiness of the Voter’s Device(s)] This system depends heavily on the users device (and possibly another if they verify their vote) and does not satisfy this principle.
+    \item[One Vote Per Voter] The Estonian system only counts the latest vote per voter and uses the country's key infrastructure to ensure the valid identity of each vote. This system satisfies the principle.
+    \item[Only Count Votes from Eligible Voters] The Estonian identity infrastructure, with key pairs for citizens, provides this principle in a very strong way.
+    \item[Process Validation and Transparency] This system's server software was open sourced, as well as an extensive set of recordings of their procedures. Unfortunately the client source was not provided. This principle was partially satisfied.
+    \item[Service Availability] Since Estonia still supports paper ballots, there is an adequate fallback if a disaster strikes the internet voting platform. This adequately satisfies this principle.
+    \item[Voter Authentication and Authorization] As previously discussed, the Estonian identity infrastructure accomplishes this principle very well.
+\end{description}
 
 %-------------------------------------------------------------------------------
 
