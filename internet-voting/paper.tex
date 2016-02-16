@@ -88,9 +88,13 @@
 
 \section*{Background}
 
+In two enlightening videos \cite{halderman-estonia-presentation} \cite{halderman-estonia-video}, Alex Halderman offered viewers an overview of Estonia's internet voting system, as well as an inside look at how attackers may be able to compromise such a system. Such compromises need not be obvious but may still grossly affect the outcome of an election.
+
+In BC, an independent panel produced a report \cite{internet-voting-report} about internet voting, ultimately reccommending against adopting universal internet voting.
+
 %-------------------------------------------------------------------------------
 
-\section*{Principles}
+\section*{Reviewing the Principles}
 
 The report \cite{internet-voting-report} outlined several principles to evaluate potential systems against. Below we can break down how Estonia's system worked in relation to these specifics:
 
@@ -106,11 +110,25 @@ The report \cite{internet-voting-report} outlined several principles to evaluate
     \item[Voter Authentication and Authorization] As previously discussed, the Estonian identity infrastructure accomplishes this principle very well.
 \end{description}
 
+Overall, the Estonian system adequately satisfies the majority of principles set out by the report. Areas of concern include the device(s) used for voting, untrustworthiness of the client software, and the accessibility alternative systems if a state-level attacker were to compromise the online voting system.
+
 %-------------------------------------------------------------------------------
 
-\begin{displayquote}
-....
-\end{displayquote}
+\section*{Challenges in Internet Voting}
+
+The report produced a set challenges in internet voting that can be used to evaluate the Estonian system.
+
+\subsection*{Security}
+
+The report detailed three key areas of security to focus on.
+
+\begin{description}
+    \item[In Transit] Votes are encrypted and signed with appropriately secured keys. They are then transported appropriately over TLS/SSL streams to the ballot collection server. It is not clear what, if any, checks the voting software does to verify the legitmacy of the ballot collection server. If somehow the SSL traffic was stripped of it's encryption it's possible attackers could identify those who did vote online.
+    \item[At the Voting Device] The voting device, the voter's home computer, is quite unsecure. As the report details, problems with malware and virusii are entirely possible and perhaps to be expected. Worse yet, many electors have little working knowledge of computer security and may be fooled into fake voting sites which may skim their credentials. In Estonia's case these dangers are prevelant and certainly cause for concern.
+    \item[At the Election Server] The Estonian system breaks the election server into two seperate components air-gapped from one another. The first, the ballot collection server, is only able to connect voters to ballots, and not identify choice of the ballot. The second is an offline server which counts the ballots, and it is provided ballots stripped of their identifying signatures. This system makes many good choices. The offline tallying server is not susceptible to remote intrusion attacks (since it is not connected) and the publicly available video allows for a reasonable assurance against insider threats.
+\end{description}
+
+Additionally was noted in the video \cite{halderman-estonia-presentation}, the operational security of the information technology team seemed to be weak. They were noted using personal, unclean laptops and unwiped USB keys for various tasks which would be considered mission critical. Furthermore it was noted several components of their toolkit were obtained in an insecure manner, opening the door for even more attacks.
 
 \section*{Conclusion}
 Lorem Ipstuff.
