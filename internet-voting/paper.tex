@@ -102,7 +102,7 @@ The report \cite{internet-voting-report} outlined several principles to evaluate
     \item[Accessibility] With the Estonian system, the voting client is available for Mac, Windows, and Linux, lending it strong accessibility. There was no research on the system's ability to handle attacks like a DDOS or 0-day vulnerability. Barring some sort of high-capacity attack it's unlikely the system would be inaccessible for the entire week of internet voting. This system satisfactorily addresses the panel's principle.
     \item[Ballot Anonimity] The system featured a two stage process which involved two seperate air-gapped machines. One machine had access to the signed, encrypted ballots, and could validate, then strip the signing off the ballots. The other machine could take the anonymous ballots and decrypt them, ensuring that by the time the vote is counted, the identity has been removed. It's necessary for there to be some trust (and perhaps validation) that the respective machines are adequately secured. This system satisfies this principle.
     \item[Individual and Independent Verifiability] This system provides voters with a reasonable way to review their vote was as they submitted. This verification system utilizes a different device, a smartphone. There is a reasonable limit on the number of times someone could review their vote, and the system allows for resubmission to prevent cohercion. This principle is moderately satisfied.
-    \item[Non-reliance on Trustworthiness of the Voter’s Device(s)] This system depends heavily on the users device (and possibly another if they verify their vote) and does not satisfy this principle.
+    \item[Non-reliance on Trustworthiness of the Voter Device(s)] This system depends heavily on the users device (and possibly another if they verify their vote) and does not satisfy this principle.
     \item[One Vote Per Voter] The Estonian system only counts the latest vote per voter and uses the country's key infrastructure to ensure the valid identity of each vote. This system satisfies the principle.
     \item[Only Count Votes from Eligible Voters] The Estonian identity infrastructure, with key pairs for citizens, provides this principle in a very strong way.
     \item[Process Validation and Transparency] This system's server software was open sourced, as well as an extensive set of recordings of their procedures. Unfortunately the client source was not provided. This principle was partially satisfied.
@@ -128,7 +128,43 @@ The report detailed three key areas of security to focus on.
     \item[At the Election Server] The Estonian system breaks the election server into two seperate components air-gapped from one another. The first, the ballot collection server, is only able to connect voters to ballots, and not identify choice of the ballot. The second is an offline server which counts the ballots, and it is provided ballots stripped of their identifying signatures. This system makes many good choices. The offline tallying server is not susceptible to remote intrusion attacks (since it is not connected) and the publicly available video allows for a reasonable assurance against insider threats.
 \end{description}
 
-Additionally was noted in the video \cite{halderman-estonia-presentation}, the operational security of the information technology team seemed to be weak. They were noted using personal, unclean laptops and unwiped USB keys for various tasks which would be considered mission critical. Furthermore it was noted several components of their toolkit were obtained in an insecure manner, opening the door for even more attacks.
+Additionally was noted in the video \cite{halderman-estonia-presentation}, the operational security of the information technology team seemed to be weak. They were noted using personal, unclean laptops and unwiped USB keys for various tasks which would be considered mission critical. Furthermore it was noted several components of their toolkit were obtained in an insecure manner, opening the door for even more attacks. More on that below.
+
+\subsection*{Compromised Election Results}
+
+The report takes care to note that the security of ballots is more critical than that of even sensitive data such as banking information. Internet voting allows for a smaller group of persons to manipulate the results of an election. For example, if the administrators of the system were somehow able to fake otherwise absent ballots it could skew the results of the election.
+
+In the Estonian system the deployment, maintenance, and evaluation of the election results is documented via video, which helps instill trust in the process. This does not necessarily mean that there is no corruption though, many avid television viewers are aware of the ease in manipulating film.
+
+Perhaps a greater concern than corruption of the administrators is the subversion of their devices. In the videos the administrators were using obviously personal laptops that were possibly already infected with malware, downloaded critical software from unencrypted (or verified) sources, and using insecure USB keys on supposedly secure servers. These actions demonstrate a lack of professionalism and shows the administrators apparently do not take the situation particularly seriously.
+
+\subsection*{Accessibility, usability and availability}
+
+Because the Estonian internet voting system only augments the existing paper ballot many of the report's concerns here regarding accessibility/usability are of negligible importance.
+
+The system is, however, in very real danger from attacks against it's availability. Since the ballot collection server is (necessarily) internet connected it's very possible that it could be rendered inaccessible for part of, or the entirity of, the election.
+
+\subsection*{Authentication and ballot anonymity}
+
+One of the report's primary concerns related to authentication was how to adequately identify eligible voters. In the Estonian system this problem is handled via the country's already implemented PKI (Public Key Infrastructure) based on the national ID cards. Additionally, voters must pre-register to vote online, adding another factor into the security of the system.
+
+The report also discusses a ballot anonymity and mentioned how there are digital processes similar to the double envelope system used in mail voting. The Estonian system uses one of these digital processes by having the online ballot collection server (which checks the eligibility of the voter using GPG signatures), and then the offline ballot counting machine which never recieves the identification signatures, only the GPG encrypted votes.
+
+The report noted one particularly interesting fact about the encryption methods used by the Estonian system: That one day the encryption guarding the votes would be broken, and the voter's choices would be unmasked. It's possible that even if the votes were destroyed that they may have been collected in transit.
+
+Altogether the Estonian system does a very acceptable job providing both secure authentication as well as anonymous ballots.
+
+\subsection*{Secrecy of the Ballot}
+
+As noted immediately above, there is a possible event where the votes (along with the voters) could be identified at a later date due to broken encryption. This could disrupt the secrecy of the ballot, but such an event is only likely to happen in the future, after the election in question.
+
+The report cautions about the type of identification/authentication used by an internet voting system can impact the possibility of a ballot being sold or otherwise corrupted. It warns against using things such as one-time pins what voters may be quite willing to sell or lose. If driver's licenses or other forms of important ID are used, voters are less likely to lose or sell their votes.
+
+The Estonian system utilizes the national ID card, similar to the BC services card, to authenticate the user, meaning they are unlikely to wish to sell or lose their ability to vote. The system also permits users to vote multiple times (only the last counting) to help reduce cohersion. Both of these implementation details help support secrecy of the ballot.
+
+\subsection*{Transparency and auditability}
+
+The Estonian internet voting system did not appear to have very strong auditing systems from the material used to research. Nor was it noted if the system had ever undergone an official audit by a trusted third party. The idea of "Scrutineers" was not mentioned either. Perhaps this is due to a lack of available information, but the Estonian system does not appear to do an adequate job in this area.
 
 \section*{Conclusion}
 Lorem Ipstuff.
